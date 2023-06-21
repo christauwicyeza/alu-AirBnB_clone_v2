@@ -13,6 +13,7 @@ env.hosts = ['35.172.220.65', '34.204.53.150']
 env.key_filename = '~/.ssh/id_rsa'
 
 def do_deploy(archive_path):
+    
     """deploy web static"""
     if not exists(archive_path):
         return False
